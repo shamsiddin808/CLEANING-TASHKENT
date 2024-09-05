@@ -10,7 +10,7 @@ const BlogPost = ({ blog }) => {
                     <p><small> {date} </small></p>
                     <h4> {title} </h4>
                     <p className="card-text"> {post} </p>
-                    <button className='btn btn-outline-primary rounded-pill'>Batafsil</button>
+                    {/*<button className='btn btn-outline-primary rounded-pill'>Batafsil</button>*/}
                 </div>
         </div>
     );
