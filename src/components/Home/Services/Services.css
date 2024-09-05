@@ -1,0 +1,41 @@
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.service-title h1 {
+  font-family: "Righteous", cursive;
+}
+.service-title span {
+  color: rgb(7, 7, 105);
+}
+
+.wrapper-div {
+  max-width: 470px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper-div:hover{
+    color: black;
+}
+
+.icon-wrapper {
+  background-color: #0D6EFD; /* Yellow background */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
