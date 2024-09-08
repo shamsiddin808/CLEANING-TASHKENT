@@ -15,12 +15,12 @@ const Services = () => {
     const staticCardData = [
         {
             img: Img2,
-            title: "Umumiy tozalash",
+            title: "Генеральная уборка",
             description: "Say goodbye to wrinkles with our professional ironing services. We handle your garments with care, providing precise ironing that guarantees a crisp and polished look for your clothing."
         },
         {
             img: Img2,
-            title: "Nam Tozalash",
+            title: "Влажная уборка",
             description: "Experience a fresh and clean environment with our advanced cleaning services, ensuring a spotless and healthy space for you and your loved ones."
         },
         {
@@ -42,11 +42,11 @@ const Services = () => {
 
     const getLink = (title) => {
         switch (title) {
-            case "Umumiy tozalash":
+            case "Генеральная уборка":
                 return "/general_cleaning";
-            case "Nam Tozalash":
+            case "Влажная уборка":
                 return "/wet_cleaning";
-            case "RoboCleanda tozalash":
+            case "Уборка в RoboClean":
                 return "/robo_cleaning";
             case "Qo'shimcha hizmatlar":
                 return "/another_cleaning";

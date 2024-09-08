@@ -26,7 +26,7 @@ const General_clearing = () => {
       <Navbar />
       <div className='wrapper-main'>
         <div className='wrapper-text'>
-          <h3 className='service-title'> <span>RoboCleanda</span> Umumiy tozalashning ichiga kiruvchi hizmat turlari ro'yxati</h3>
+          <h3 className='service-title'> <span>RoboCleanda</span> Генеральная уборкаning ichiga kiruvchi hizmat turlari ro'yxati</h3>
           <div className='services-grid'>
             {services.map((service, index) => (
               <div className='service-cardd' key={index}>
